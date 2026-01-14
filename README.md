@@ -111,14 +111,20 @@ It can be loaded later for inference without retraining.
 ``bash
 pip install pandas numpy matplotlib nltk scikit-learn wordcloud
 
+---
+
 ### 2. Download NLTK Stopwords
 python
 Copy code
 import nltk
 nltk.download('stopwords')
 
+---
+
 ### 3. Run the Notebook
 Execute all cells in the Jupyter Notebook sequentially.
+
+---
 
 ### 🔮 Future Enhancements
 Apply lemmatization or stemming
@@ -129,8 +135,11 @@ Deploy the model using Flask or Streamlit
 
 Add accuracy, precision, recall, and F1-score metrics
 
+---
+
 ### 📜 License
 This project is open-source and intended for learning and educational purposes.
 
+---
 ### 👤 Author
 Rahul Yadav
