@@ -102,7 +102,6 @@ This file contains:
 - Logistic Regression Model
 
 It can be loaded later for inference without retraining.
-
 ---
 
 ## ▶️ How to Run the Project
@@ -111,15 +110,11 @@ It can be loaded later for inference without retraining.
 ``bash
 pip install pandas numpy matplotlib nltk scikit-learn wordcloud
 
----
-
 ### 2. Download NLTK Stopwords
 python
 Copy code
 import nltk
 nltk.download('stopwords')
-
----
 
 ### 3. Run the Notebook
 Execute all cells in the Jupyter Notebook sequentially.
